@@ -1,0 +1,136 @@
+/* WHOLE DOCUMENT SETTINGS */
+
+
+
+
+/* SPECIAL-COMPONENTS */
+
+hr {
+    width: 1230px;
+}
+
+
+/* INTRODUCTION SECTION */
+
+
+.about-me {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.my-intro {
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+.name {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* NAVIGATION SECTION */
+
+
+.navbar {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.navigation {
+    margin-left: 55px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+}
+
+.nav-contact-bar {
+    padding-left: 750px;
+}
+
+.contact {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* INTRODUCTION SECTION */
+
+.introduction {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 1335px;
+    background-repeat: no-repeat;
+}
+
+.head {
+    color: blanchedalmond;
+    font-family: 'Newsreader', serif;
+    font-size: 55px;
+    font-weight: 400;
+    padding-top: 125px;
+    padding-left: 425px;
+}
+
+.small-heading {
+    font-family: 'Raleway', sans-serif;
+}
+
+.small-head {
+    color: rgba(255, 255, 255, 0.789);
+    font-weight: 300;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.para { 
+    width: 500px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin: auto;
+    color: #fff;
+}
+
+.btn {
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 2px;
+    margin-left: 600px;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #fff;
+    transition: color 2s;
+}
