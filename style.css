@@ -132,5 +132,154 @@ hr {
 .btn:hover {
     color: #000;
     background-color: #fff;
-    transition: color 2s;
+}
+
+.qualify {
+    color: #000;
+}
+
+/* QUALIFICATIONS SECTION */
+
+.qualify-box {
+    display: flex;
+    width: 1335px;
+    color: #fff;
+}
+
+.html-qualify {
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Images/html.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 85px;
+    text-align: center;
+    padding-bottom: 85px;
+}
+
+.css-qualify {
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Images/css.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+.qualify-head {
+    font-size: 36px;
+}
+
+.qualify-info {
+    font-size: 16px;
+}
+
+/* blue colour- #48C1AE */
+
+/* CONTACT-FORM SECTION */
+
+.contact-form {
+    display: inline-block;
+    background-color: #48C1AE;
+    height: 100vh;
+    color: #fff;
+    width: 1335px;
+}
+
+.contact-us {
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.hr-contact  {
+    width: 80px;
+}
+
+.left-section {
+    float: left;
+    width: 49%;
+}
+
+.header-section {
+    font-size: 21px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.right-form-section {
+    float: right;
+    width: 49%;
+}
+
+.form {
+    padding-top: 65px;
+    padding-left: 20px;
+}
+
+.info-section {
+    padding-left: 150px;
+}
+
+.block-text {
+    display: block;
+}
+
+.text-box {
+    color: #fff;
+    border-color: #fff;
+    width: 370px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.text-box-2 {
+    color: #fff;
+    border-color: #fff;
+    width: 168px;
+    margin-right: 1px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.text-box:active,
+.text-box:hover,
+.text-box-2:hover,
+.text-box-2:active,
+.textarea:hover,
+.textarea:active {
+    border: 2px solid #fff;
+}
+
+.textarea {
+    height: 100px;
+    width: 393px;
+}
+
+.button {
+    padding: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 130px;
+    background-color: #46968a;
+    border-color: #fff;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button:active,
+.button:hover {
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
 }
